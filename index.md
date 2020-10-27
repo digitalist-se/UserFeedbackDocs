@@ -9,9 +9,9 @@ The plugin is used to manage website feedback forms, like surveys and questionar
 The unique thing with this plugin is that we build it tightly integrated with Matomo.
 
 ## This means:
--- Tight integration with Matomos Tag Manager for deployment of your Feedback Forms
--- Report data is integrated with the Matomo data. This means that you can filter your report data just like any other data in Matomo by using date ocr segments.
--- You can also rely on Matomos API to export the feedback data to any other system
+- Tight integration with Matomos Tag Manager for deployment of your Feedback Forms
+- Report data is integrated with the Matomo data. This means that you can filter your report data just like any other data in Matomo by using date ocr segments.
+- You can also rely on Matomos API to export the feedback data to any other system
 
 
 ### Support or Contact
