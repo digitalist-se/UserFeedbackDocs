@@ -16,7 +16,7 @@ Click on the plugin icons and then “Add rules to this page button.
  
  
  
-##Find your TagManager Code
+## Find your TagManager Code
 You will find the code to use in the Matomos Tag Manager.
 First select the container to use, then click on the menu item Install code.
 The code looks something like this:
@@ -36,18 +36,18 @@ Now paste your TagManager code into the rules for Digitalist.se and save.
 After this you can browse the site and you should be able to to see calls to you Matomo Sever.
  
  
-#A simple test in the browser console
+# A simple test in the browser console
 Go to the page where you want to testrun Matomo, then open up the dev console.
 In your console just paste your Matomo Tag Manager code and press enter (to execute the code).
 An example from Google Chrome below:
 
  
 How to open the console in different browsers.
-##Chrome
+## Chrome
 To open the developer console in Google Chrome, open the Chrome Menu in the upper-right-hand corner of the browser window and select More Tools > Developer Tools. You can also use the shortcut Option + ⌘ + J (on macOS), or Shift + CTRL + J (on Windows/Linux).
-##Firefox
+## Firefox
 You open the Web Console from a menu or with a keyboard shortcut: Choose Web Console from the Web Developer submenu in the Firefox Menu (or Tools menu if you display the menu bar or are on Mac OS X) Press the Ctrl + Shift + K ( Command + Option + K on OS X) keyboard shortcut
-##Internet Explorer
+## Internet Explorer
 To open the developer console in Internet Explorer, click on the Gear Menu in the upper-right-hand corner of the browser window and select F12 Developer Tools. You can also press F12 to open it. The console will either open up within your existing Internet Explorer window, or in a new window.
-##Edge
+## Edge
 To open the developer console in Microsoft Edge, open the Edge Menu in the upper-right-hand corner of the browser window and select F12 Developer Tools. You can also press F12 to open it. The console will either open up within your existing Edge window, or in a new window. You may have to select the Console tab.
