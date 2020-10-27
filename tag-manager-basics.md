@@ -20,6 +20,7 @@ Click on the plugin icons and then “Add rules to this page button.
 You will find the code to use in the Matomos Tag Manager.
 First select the container to use, then click on the menu item Install code.
 The code looks something like this:
+```
   <!-- Matomo Tag Manager -->
   <script type="text/javascript">
   var _mtm = window._mtm = window._mtm || [];
@@ -27,6 +28,7 @@ The code looks something like this:
   g.type='text/javascript'; g.async=true; g.src='https://your-server/matomo/js/container_3u3tkNVV.js'; s.parentNode.insertBefore(g,s);
   </script>
   <!-- End Matomo Tag Manager -->
+ ```
 
 You want to copy everything in purple from your code. Do not  copy the red parts. It will not work (that code works when you add it to an html page, like in your CMS or similar. )
 Now paste your TagManager code into the rules for Digitalist.se and save.
