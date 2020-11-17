@@ -46,7 +46,7 @@ Gives you a submit button
 
 
 # Example of a Straigt form
-
+```
 {
     "type": "straight",
     "widgets": [{
@@ -89,5 +89,5 @@ Gives you a submit button
         }
     }]
 }
-
+```
 
