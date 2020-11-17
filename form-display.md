@@ -1,6 +1,6 @@
 ### *Quick navigation*
 
-[Tag manager Basics](./tag-manager-basics.md) | [Form templates](./form-templates.md) | [Form creation](./form-creation.md) | [Form display](./form-display.md) | [Feature requests and bug reporting](./feature-requests-and-bug-reporting.md)
+[Home](./index.md) | [Tag manager Basics](./tag-manager-basics.md) | [Form templates](./form-templates.md) | [Form creation](./form-creation.md) | [Form display](./form-display.md) | [Feature requests and bug reporting](./feature-requests-and-bug-reporting.md)
 
 # Form display
 When you created your first form you can publish the form to the site where you are running Matomo.
