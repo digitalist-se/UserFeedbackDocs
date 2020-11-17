@@ -1,8 +1,8 @@
 ### *Quick navigation*
 
-[Home](./index.md) | [Tag manager Basics](./tag-manager-basics.md) | [Form templates](./form-templates.md) | [Form creation](./form-creation.md) | [Form display](./form-display.md) | [Feature requests and bug reporting](./feature-requests-and-bug-reporting.md)
+[Home](./index.md) | [Tag manager Basics](./tag-manager-basics.md) | [Form templates](./form-templates.md) | [Form creation](./form-creation.md) | [Form display](./form-display.md) | [Form reporting](./form-reporting.md) | [About](./about.md)
 
-## Welcome the documentation for Matomo User Feedback plugin
+## Welcome the documentation for Matomo User Feedback plugin | Matomo feedback forms
 
 This page documents use cases and will also be the place where you can create feature requests or send bug reports. 
 

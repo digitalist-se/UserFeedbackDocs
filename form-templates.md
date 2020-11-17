@@ -1,8 +1,8 @@
 ### *Quick navigation*
 
-[Home](./index.md) | [Tag manager Basics](./tag-manager-basics.md) | [Form templates](./form-templates.md) | [Form creation](./form-creation.md) | [Form display](./form-display.md) | [Feature requests and bug reporting](./feature-requests-and-bug-reporting.md)
+[Home](./index.md) | [Tag manager Basics](./tag-manager-basics.md) | [Form templates](./form-templates.md) | [Form creation](./form-creation.md) | [Form display](./form-display.md) | [Form reporting](./form-reporting.md) | [About](./about.md)
 
-# Form templates
+# Form templates | Matomo feedback forms
 To enabel more users to set up almost any type of widget combinations we created form templates.
 
 The structure of the templates is based on JSON.

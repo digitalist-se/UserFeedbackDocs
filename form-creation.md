@@ -1,8 +1,8 @@
 ### *Quick navigation*
 
-[Home](./index.md) | [Tag manager Basics](./tag-manager-basics.md) | [Form templates](./form-templates.md) | [Form creation](./form-creation.md) | [Form display](./form-display.md) | [Feature requests and bug reporting](./feature-requests-and-bug-reporting.md)
+[Home](./index.md) | [Tag manager Basics](./tag-manager-basics.md) | [Form templates](./form-templates.md) | [Form creation](./form-creation.md) | [Form display](./form-display.md) | [Form reporting](./form-reporting.md) | [About](./about.md)
 
-# Form creation
+# Form creation | Matomo feedback forms
 Form creation is where you configure the actual form displayed to the endvisitors.
 
 When you create a form, you will need to first select a form template. 
