@@ -1,7 +1,6 @@
-
 ### *Quick navigation*
 
-[Home](./index.md) | [Form templates](./form-templates.md) | [Form creation](./form-creation.md) | [Feature requests and bug reporting](./feature-requests-and-bug-reporting.md)
+[Tag manager Basics](./tag-manager-basics.md) | [Form templates](./form-templates.md) | [Form creation](./form-creation.md) | [Form display](./form-display.md) | [Feature requests and bug reporting](./feature-requests-and-bug-reporting.md)
 
 # Getting started with Matomo TagManager testing
 When you work with Matomo tracking you want to testrun your code before going live. Sometimes you also might want to test your tracking or solutions on a site you are not in control of.
