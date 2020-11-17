@@ -1,5 +1,3 @@
-### *Quick navigation*
-
 [Home](./index.md) | [Tag manager Basics](./tag-manager-basics.md) | [Form templates](./form-templates.md) | [Form creation](./form-creation.md) | [Form display](./form-display.md) | [Form reporting](./form-reporting.md) | [About](./about.md)
 
 # Getting started with Matomo TagManager testing | Matomo feedback forms
