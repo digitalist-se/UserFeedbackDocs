@@ -20,7 +20,6 @@ tomas.persson@digitalistgroup.com
 
 
 ## Our backlog
-- SDG Support. We will build in support to export your form and Analytics data towards the API´s of SDG (Single Digital Gateway. This feature will be released as another addon in January 2021. 
 - PII Tools. We will quite soon look into PII tools where we will add possibilitys to filter possibly sensitiva data out automatically. We will also add tools where administrators easilly can delete data.
 - Form Template GUI. A GUI to create forms will probably be needed to enable our users even more.
 - Form preview support. Beeing able to preview the form output when you select your template is a nice one.
@@ -28,4 +27,11 @@ tomas.persson@digitalistgroup.com
 - Add value based display. Add options to display different questions based on the users previos answers.
 - 
 
+## SDG Support
+We are building a tool in paralell that will help you to export your Matomo data towards the API´s of SDG (Single Digital Gateway. 
+This feature will be released as another Matomo addon in January 2021. 
+For any questions in this plugin please contact tomas.persson@digitalistgroup.com
+
+More info on SDG
+https://ec.europa.eu/growth/single-market/single-digital-gateway_en
 
