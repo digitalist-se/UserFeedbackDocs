@@ -1,6 +1,6 @@
 ### *Quick navigation*
 
-[Home](./index.md) | [Tag manager Basics](./tag-manager-basics.md) | [Form templates](./form-templates.md) | [Form creation](./form-creation.md) | [Form display](./form-display.md) | [Feature requests and bug reporting](./feature-requests-and-bug-reporting.md)
+[Home](./index.md) | [Tag manager Basics](./tag-manager-basics.md) | [Form templates](./form-templates.md) | [Form creation](./form-creation.md) | [Form display](./form-display.md) | [Form reporting](./form-reporting.md) | [About](./about.md)
 
 # Form reporting | Matomo feedback forms
 Form collection is stored in separate tables in Matomos Database, but we connect form submissions to Visitors in Matomo. 
