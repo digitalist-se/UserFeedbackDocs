@@ -1,0 +1,149 @@
+{
+    "type": "straight",
+    "widgets": [{
+            "id": "radioWidget",
+            "type": "radioWidget",
+            "widgetName": "Radio widget",
+            "fields": {
+                "fieldname": "wereTheInstructionsCompletingInEnglish",
+                "label": {
+                    "dataTitle": "Enter title for user to see for this field",
+                    "inlineHelp": "For example: <br> Were the instructions completing the procedure availible in English?",
+                    "default": "Were the instructions completing the procedure availible in English?"
+                },
+                "radioValues": {
+                    "dataTitle": "Radio values",
+                    "inlineHelp": "For example: Radio values like <br>Yes, No, Partly",
+                    "default": "Yes, No, Partly"
+                },
+                "required": {
+                    "default": false,
+                    "title": "Require user input",
+                    "customTitle": "Add help message if field is required",
+                    "customMessageTitle": "This filed must have a value",
+                    "customMessageHelpMsg": "This is the message you will display to the user if they try to submit this field without any value"
+                }
+            }
+            },
+
+        {
+            "id": "starsWidget",
+            "type": "starsWidget",
+            "widgetName": "Stars widget",
+            "fields": {
+                "label": {
+                    "dataTitle": "Field description showed to the user",
+                    "inlineHelp": "For example: Was it easy to fill in this form?",
+                    "default": "Was it easy to fill in this form?"
+                },
+                "fieldname": "wasItEasyToFillInThisForm",
+                "amount": {
+                    "dataTitle": "Stars",
+                    "inlineHelp": "Select amount of starts (Note only 5 is an option for this SDG form)",
+                    "select": {
+                        "5": "five"
+                    },
+                    "default": "5"
+                },
+                "minValue": {
+                    "dataTitle": "Min value description",
+                    "inlineHelp": "For example: Not so good (or leave empty to follow SDG template)",
+                    "default": ""
+                },
+                "maxValue": {
+                    "dataTitle": "Max value description",
+                    "inlineHelp": "For example: Very good (or leave empty to follow SDG template)",
+                    "default": ""
+                },
+                "required": {
+                    "default": "false",
+                    "title": "Require user input",
+                    "customTitle": "Add help message if field is required",
+                    "customMessageTitle": "This filed must have a value",
+                    "customMessageHelpMsg": "This is the message you will display to the user if they try to submit this field without any value"
+                }
+            }
+            },
+        {
+            "id": "wereYouAbleToUseEID",
+            "type": "radioWidget",
+            "widgetName": "Radio widget",
+            "fields": {
+                "fieldname": "wereYouAbleToUseEID",
+                "label": {
+                    "dataTitle": "Enter title for user to see for this field",
+                    "inlineHelp": "For example: <br> Were you able to use e-ID or eSignature?",
+                    "default": "Were you able to use e-ID or eSignature?"
+                },
+                "radioValues": {
+                    "dataTitle": "Radio values",
+                    "inlineHelp": "For example: Radio values like <br>Yes, No, Not applicable",
+                    "default": "Yes, No, Not applicable"
+                },
+                "required": {
+                    "default": "true",
+                    "title": "Require user input",
+                    "customTitle": "Add help message if field is required",
+                    "customMessageTitle": "This filed must have a value",
+                    "customMessageHelpMsg": "This is the message you will display to the user if they try to submit this field without any value"
+                }
+
+            }
+            }
+,
+        {
+            "id": "couldYouUploadDocumentsInEFormat",
+            "type": "radioWidget",
+            "widgetName": "Radio widget",
+            "fields": {
+                "fieldname": "couldYouUploadDocumentsInEFormat",
+                "label": {
+                    "dataTitle": "Enter title for user to see for this field",
+                    "inlineHelp": "For example: <br> Could you upload documents required in an electronic format?",
+                    "default": "Could you upload documents required in an electronic format?"
+                },
+                "radioValues": {
+                    "dataTitle": "Radio values",
+                    "inlineHelp": "For example: Radio values like <br>Yes, No, Not applicable",
+                    "default": "Yes, No, Not applicable"
+                },
+                "required": {
+                    "default": false,
+                    "title": "Require user input",
+                    "customTitle": "Add help message if field is required",
+                    "customMessageTitle": "This filed must have a value",
+                    "customMessageHelpMsg": "This is the message you will display to the user if they try to submit this field without any value"
+                }
+            }
+            }
+
+     , {
+            "id": "submitWidget",
+            "type": "submitWidget",
+            "widgetName": "Submit button",
+            "fields": {
+                "text": {
+                    "dataTitle": "Submit button text",
+                    "inlineHelp": "The text to display on the Submit button for example: Send feedback",
+                    "default": "Send feedback"
+                }
+            }
+    },
+        {
+            "id": "finalWidget",
+            "type": "finalWidget",
+            "widgetName": "Final widget",
+            "fields": {
+                "message": {
+                    "dataTitle": "Thank u message",
+                    "inlineHelp": "The Text that shows after form submited",
+                    "default": "Thank you for your feedback!"
+                },
+                "button": {
+                    "dataTitle": "Button text",
+                    "inlineHelp": "The Text in confirm button",
+                    "default": "Close"
+                }
+            }
+        }]
+}

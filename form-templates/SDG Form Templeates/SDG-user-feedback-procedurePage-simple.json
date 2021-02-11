@@ -1,41 +1,73 @@
 {
     "type": "straight",
     "widgets": [
-                {
-                "type": "starsWidget",
-                "widgetName": "Stars widget",
-                "fields": {
-                    "label": {
-                        "dataTitle": "Field description showed to the user",
-                        "inlineHelp": "For example: Rate how easy it was to use this procedure"
+        {
+            "type": "starsWidget",
+            "widgetName": "Stars widget",
+            "id": "starsWidget",
+            "fields": {
+                "label": {
+                    "dataTitle": "Field description showed to the user",
+                    "inlineHelp": "For example: Rate how easy it was to use this procedure",
+                    "default": "Rate how easy it was to use this procedure"
+                },
+                "fieldname": "rateThisPage",
+                "amount": {
+                    "dataTitle": "Stars",
+                    "inlineHelp": "Select amount of starts (Note only 5 is an option for this SDG form)",
+                    "select": {
+                        "5": "five"
                     },
-                    "fieldname": "rateThisPage",
-                    "amount": {
-                        "dataTitle": "Stars",
-                        "inlineHelp": "Select amount of starts (Note only 5 is an option for this SDG form)",
-                        "select": {
-                            "5": "five"
-                        }
-                    },
-                    "minValue": {
-                        "dataTitle": "Min value description",
-                        "inlineHelp": "For example: Not so easy (or leave empty to follow SDG template)" 
-                    },
-                    "maxValue": {
-                        "dataTitle": "Max value description",
-                        "inlineHelp": "For example: Very easy (or leave empty to follow SDG template)"
-                    }
+                    "default": "5"
+                },
+                "minValue": {
+                    "dataTitle": "Min value description",
+                    "inlineHelp": "For example: Not so easy (or leave empty to follow SDG template)",
+                    "default": ""
+                },
+                "maxValue": {
+                    "dataTitle": "Max value description",
+                    "inlineHelp": "For example: Very easy (or leave empty to follow SDG template)",
+                    "default": ""
+                },
+                "required": {
+                    "default": "false",
+                    "title": "Require user input",
+                    "customTitle": "Add a custom message if required field is not filled in",
+                    "customMessageTitle": "This filed must have a value",
+                    "customMessageHelpMsg": "This is the message you will display to the user if they try to submit this field without any value"
                 }
             }
-                
+            }
+
      , {
-        "type": "submitWidget",
-        "widgetName": "Submit button",
-        "fields": {
-            "text": {
-                "dataTitle": "Submit button text",
-                "inlineHelp": "The text to display on the Submit button for example: Send feedback"
+            "id": "submitWidget",
+            "type": "submitWidget",
+            "widgetName": "Submit button",
+            "fields": {
+                "text": {
+                    "dataTitle": "Submit button text",
+                    "inlineHelp": "The text to display on the Submit button for example: Send feedback",
+                    "default": "Send feedback"
+                }
+            }
+    },
+        {
+            "id": "finalWidget",
+            "type": "finalWidget",
+            "widgetName": "Final widget",
+            "fields": {
+                "message": {
+                    "dataTitle": "Thank u message",
+                    "inlineHelp": "The thank you text that shows after the form is submited",
+                    "default": "Thank you for your feedback!"
+                },
+                "button": {
+                    "dataTitle": "Button text",
+                    "inlineHelp": "The text on the confirm button",
+                    "default": "Close"
+                }
             }
         }
-    }]
+    ]
 }

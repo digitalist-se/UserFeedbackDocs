@@ -1,56 +1,117 @@
 {
     "type": "straight",
     "widgets": [
-                {
-                "type": "starsWidget",
-                "widgetName": "Stars widget",
-                "fields": {
-                    "label": {
-                        "dataTitle": "Field description showed to the user",
-                        "inlineHelp": "For example: Rate how easy it was to use this procedure"
+        {
+            "id": "starsWidget",
+            "type": "starsWidget",
+            "widgetName": "Stars widget",
+            "fields": {
+                "label": {
+                    "dataTitle": "Field description showed to the user",
+                    "inlineHelp": "For example: Rate how easy it was to use this procedure",
+                    "default": "Rate how easy it was to use this procedure"
+                },
+                "fieldname": "rateThisPage",
+                "amount": {
+                    "dataTitle": "Stars",
+                    "inlineHelp": "Select amount of starts (Note only 5 is an option for this SDG form)",
+                    "select": {
+                        "5": "five"
                     },
-                    "fieldname": "rateThisPage",
-                    "amount": {
-                        "dataTitle": "Stars",
-                        "inlineHelp": "Select amount of starts (Note only 5 is an option for this SDG form)",
-                        "select": {
-                            "5": "five"
-                        }
-                    },
-                    "minValue": {
-                        "dataTitle": "Min value description",
-                        "inlineHelp": "For example: Not so easy (or leave empty to follow SDG template)" 
-                    },
-                    "maxValue": {
-                        "dataTitle": "Max value description",
-                        "inlineHelp": "For example: Very easy (or leave empty to follow SDG template)"
-                    }
+                    "default": "5"
+                },
+                "minValue": {
+                    "dataTitle": "Min value description",
+                    "inlineHelp": "For example: Not so easy (or leave empty to follow SDG template)",
+                    "default": ""
+                },
+                "maxValue": {
+                    "dataTitle": "Max value description",
+                    "inlineHelp": "For example: Very easy (or leave empty to follow SDG template)",
+                    "default": ""
+                },
+                "required": {
+                    "default": "false",
+                    "title": "Require user input",
+                    "customTitle": "Add a custom message if required field is not filled in",
+                    "customMessageTitle": "This filed must have a value",
+                    "customMessageHelpMsg": "This is the message you will display to the user if they try to submit this field without any value"
                 }
+            }
+        },
+        {
+            "type": "textAreaWidget",
+            "widgetName": "Text area widget",
+            "id": "howcanweimprove",
+            "fields": {
+                "label": {
+                    "dataTitle": "Text feedback title",
+                    "inlineHelp": "For example: How can we improve?",
+                    "default": "How can we improve?"
+                },
+                "fieldname": "feedback",
+                "placeholder": {
+                    "dataTitle": "Placeholder text",
+                    "inlineHelp": "For example: Type your feedback here",
+                    "default": "Type your feedback here"
+                },
+                "required": {
+                    "default": false,
+                    "title": "Is input required",
+                    "customTitle": "Add custom error message if data is missing",
+                    "customMessageTitle": "Enter massage here",
+                    "customMessageHelpMsg": "Example: This field can not be empty"
+                },
+                "minlength": {
+                    "default": "",
+                    "title": "Min length",
+                    "customTitle": "Customize min length message",
+                    "customMessageTitle": "Enter message here",
+                    "customMessageHelpMsg": "Enter min length for this filed for example: This filed must be at least 10 characters long"
+                },
+                "maxlength": {
+                    "default": "",
+                    "title": "Max length",
+                    "customTitle": "Customize max length message",
+                    "customMessageTitle": "Max length of this filed must be 256",
+                    "customMessageHelpMsg": "Enter max length for this filed for example 256"
+                },
+                "pattern": {
+                    "default": "",
+                    "title": "", 
+                    "customTitle": "Customize the pattern error message",
+                    "customMessageTitle": "For example this field must be a 4-digit number",
+                    "customMessageHelpMsg": "Enter the error message to display to the user if the pattern is wrong. For example: This field must be a 4-digit number "
+                }
+            }
+        },
+        {
+            "id": "submitWidget",
+            "type": "submitWidget",
+            "widgetName": "Submit button",
+            "fields": {
+                "text": {
+                    "dataTitle": "Submit button text",
+                    "inlineHelp": "The text to display on the Submit button for example: Send feedback",
+                    "default": "Send feedback"
+                }
+            }
             },
-            {
-                "type": "textAreaWidget",
-                "widgetName": "Text area widget",
-                "fields": {
-                    "label": {
-                        "dataTitle": "Text feedback title",
-                        "inlineHelp": "For example: How can we improve?"
-                    },
-                    "fieldname": "feedback",
-                    "placeholder": {
-                        "dataTitle": "Placeholder text",
-                        "inlineHelp": "Example: Enter your feedback here"
-                    }
+        {
+            "id": "finalWidget",
+            "type": "finalWidget",
+            "widgetName": "Final widget",
+            "fields": {
+                "message": {
+                    "dataTitle": "Thank u message",
+                    "inlineHelp": "The Text that shows after form submited",
+                    "default": "Thank you for your feedback!"
+                },
+                "button": {
+                    "dataTitle": "Button text",
+                    "inlineHelp": "The Text in confirm button",
+                    "default": "Close"
                 }
             }
-                
-     , {
-        "type": "submitWidget",
-        "widgetName": "Submit button",
-        "fields": {
-            "text": {
-                "dataTitle": "Submit button text",
-                "inlineHelp": "The text to display on the Submit button for example: Send feedback"
-            }
-        }
-    }]
+            }]
 }
