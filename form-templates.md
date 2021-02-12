@@ -32,11 +32,11 @@ Pizza|Burgers|Taco
 
 **Editor interface**
 
-<img src="/Users/tomper00/Desktop/radio-edit-example.png" alt="radio-edit-example" style="zoom:50%;" />
+<img src="media/images/radio-edit-example.png" alt="radio-edit-example" style="zoom:50%;" />
 
 **Output**
 
-<img src="/Users/tomper00/Desktop/radio-output-example.png" alt="radio-output-example" style="zoom:50%;" />
+<img src="media/images/radio-output-example.png" alt="radio-output-example" style="zoom:50%;" />
 
 
 ## inputWidget
