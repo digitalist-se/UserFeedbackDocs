@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: ./media/images
+---
+
 [Home](./index.md) | [Tag manager Basics](./tag-manager-basics.md) | [Form templates](./form-templates.md) | [Form creation](./form-creation.md) | [Form display](./form-display.md) | [Form reporting](./form-reporting.md) | [About](./about.md)
 
 ## Welcome the documentation for Matomo User Feedback plugin | Matomo feedback forms
@@ -5,6 +9,8 @@
 This page documents use cases and will also be the place where you can create feature requests or send bug reports. 
 
 This plugin is under development and the planned release will be in December 2020.
+
+![form-example-stars-and-radio](/Users/tomper00/Documents/UserFeedbackDocs/UserFeedbackDocs/media/images/form-example-stars-and-radio.png)
 
 # Overall concept
 The plugin is used to manage website feedback forms, like surveys and questionares on your web sites.
