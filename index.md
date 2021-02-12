@@ -10,7 +10,7 @@ This page documents use cases and will also be the place where you can create fe
 
 This plugin is under development and the planned release will be in December 2020.
 
-![form-example-stars-and-radio](/media/images/form-example-stars-and-radio.png)
+![form-example-stars-and-radio](media/images/form-example-stars-and-radio.png)
 
 # Overall concept
 The plugin is used to manage website feedback forms, like surveys and questionares on your web sites.
