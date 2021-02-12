@@ -30,7 +30,7 @@ Yes|No
 or
 Pizza|Burgers|Taco
 
-**Editor interface**
+**If your template contains a radio widget this is how the Editor interface will look**
 
 <img src="media/images/radio-edit-example.png" alt="radio-edit-example" style="zoom:50%;" />
 
@@ -40,14 +40,39 @@ Pizza|Burgers|Taco
 
 
 ## inputWidget
-Gives you a simple input field
+Gives you a html input field that you can modify with the properties
+
+- minLength
+- maxLength
+- pattern (experimental so far, might need more testing)
+
+The code we generate could look like this:
+
+ <input type="text" id="username" name="username" minlength="5" maxlength="10" pattern="[A-Za-z0-9]+">
+
+**Example of form input**
+
+![input-form-example](media/images/input-form-example.png)
+
+**Example of output** 
+
+![username-input-validation](media/images/username-input-validation.png)
 
 
 ## textAreaWidget
-Gives you a simple text area field
+Gives you a text area field
+
+- minLength
+- maxLength
+
+The code we generate could look like this:
+
+ <textarea type="text" id="userFeedback" name="userFeedback" minlength="1" maxlength="250">
+
 
 
 ## submitWidget
+
 Gives you a submit button
 
 

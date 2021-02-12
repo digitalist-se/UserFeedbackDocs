@@ -1,0 +1,80 @@
+{
+    "type": "straight",
+    "widgets": [
+        {
+            "type": "inputWidget",
+            "widgetName": "Input widget",
+            "id": "userName",
+            "fields": {
+                "label": {
+                    "dataTitle": "Title for text feedback",
+                    "inlineHelp": "For example: Help us go get better",
+                    "default": "Help us go get better"
+                },
+                "fieldname": "userName",
+                "placeholder": {
+                    "dataTitle": "Placeholder text",
+                    "inlineHelp": "For example: Type your feedback here",
+                    "default": "Type your feedback here"
+                },
+                "required": {
+                    "default": true,
+                    "title": "Require user input",
+                    "customTitle": "Add help message if field is required",
+                    "customMessageTitle": "This filed must have a value",
+                    "customMessageHelpMsg": "This is the message you will display to the user if they try to submit this field without any value"
+                },
+                "minlength": {
+                    "default": "4",
+                    "title": "Test",
+                    "customTitle": "Test",
+                    "customMessageTitle": "Test",
+                    "customMessageHelpMsg": "Test"
+                },
+                "maxlength": {
+                    "default": "10",
+                    "title": "Test",
+                    "customTitle": "test",
+                    "customMessageTitle": "test",
+                    "customMessageHelpMsg": "Test"
+                },
+                "pattern": {
+                    "default": "[A-Za-z0-9]+",
+                    "title": "HTML Pattern validation",
+                    "customTitle": "Add help message if pattern is not valid",
+                    "customMessageTitle": "The field is not valid because...",
+                    "customMessageHelpMsg": "This is the message you will display to the user if they try to submit this field wi th an invalid input"
+                }
+            }
+        },
+        {
+            "id": "submitWidget",
+            "type": "submitWidget",
+            "widgetName": "Submit button",
+            "fields": {
+                "text": {
+                    "dataTitle": "Submit button text",
+                    "inlineHelp": "The text to display on the Submit button for example: Send feedback",
+                    "default": "Send feedback"
+                }
+            }
+    },
+        {
+            "id": "finalWidget",
+            "type": "finalWidget",
+            "widgetName": "Final widget",
+            "fields": {
+                "message": {
+                    "dataTitle": "Thank u message",
+                    "inlineHelp": "The thank you text that shows after the form is submited",
+                    "default": "Thank you for your feedback!"
+                },
+                "button": {
+                    "dataTitle": "Button text",
+                    "inlineHelp": "The text on the confirm button",
+                    "default": "Close"
+                }
+            }
+        }
+    ]
+}
