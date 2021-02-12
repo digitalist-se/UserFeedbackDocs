@@ -6,7 +6,7 @@ To enabel more users to set up almost any type of widget combinations we created
 The structure of the templates is based on JSON.
 In the longer run we will build a GUI for users, but for now JSON works even thoug it will require some more skills and it will also be possible to create broken JSON that will give us errors in the interface.
 
- 
+
 ## Form template types
 We support straight forms (just one page) and steps where you can add any amout of steps to your forms.
 
@@ -29,6 +29,14 @@ You can add a list like:
 Yes|No 
 or
 Pizza|Burgers|Taco
+
+**Editor interface**
+
+<img src="/Users/tomper00/Desktop/radio-edit-example.png" alt="radio-edit-example" style="zoom:50%;" />
+
+**Output**
+
+<img src="/Users/tomper00/Desktop/radio-output-example.png" alt="radio-output-example" style="zoom:50%;" />
 
 
 ## inputWidget
