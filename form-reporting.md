@@ -22,4 +22,4 @@ We did not focus on this for release 1, we believe most people will analyze thei
 
 
 
-![form-example-stars-and-radio](https://digi-matomo.dglive.net/matomo.php?idsite=31&amp;rec=1&amp;action_name=FormReporting;url=/form-reporting.html)
+![form-example-stars-and-radio](https://digi-matomo.dglive.net/matomo.php?idsite=31&amp;rec=1&amp;action_name=FormReporting&url=/form-reporting.html)
