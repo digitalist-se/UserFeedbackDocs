@@ -25,4 +25,4 @@ The unique thing with this plugin is that we build it tightly integrated with Ma
 ### Support or Contact
 For any support or business related questions, contact tomas.persson@digitalistgroup.com
 
-![form-example-stars-and-radio](https://digi-matomo.dglive.net/matomo.php?idsite=31&amp;rec=1&amp;action_name=UserFeedbackDocs)
+![form-example-stars-and-radio](https://digi-matomo.dglive.net/matomo.php?idsite=31&amp;rec=1&amp;action_name=UserFeedbackDocs;url=/)

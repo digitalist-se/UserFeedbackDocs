@@ -25,4 +25,4 @@ You can control how often the form should be displayed to a user throug the defa
 
 You could also possibly set up any kind of advanced rules through the TagManager (this is really a huge benefit of using the tagmanager in Matomo for display of tags)
 
-![form-example-stars-and-radio](https://digi-matomo.dglive.net/matomo.php?idsite=31&amp;rec=1&amp;action_name=FormDisplay)
+![form-example-stars-and-radio](https://digi-matomo.dglive.net/matomo.php?idsite=31&amp;rec=1&amp;action_name=FormDisplay;url=/form-display.html)

@@ -54,4 +54,4 @@ To open the developer console in Internet Explorer, click on the Gear Menu in th
 ## Edge
 To open the developer console in Microsoft Edge, open the Edge Menu in the upper-right-hand corner of the browser window and select F12 Developer Tools. You can also press F12 to open it. The console will either open up within your existing Edge window, or in a new window. You may have to select the Console tab.
 
-![form-example-stars-and-radio](https://digi-matomo.dglive.net/matomo.php?idsite=31&amp;rec=1&amp;action_name=TagManagerBasics)
+![form-example-stars-and-radio](https://digi-matomo.dglive.net/matomo.php?idsite=31&amp;rec=1&amp;action_name=TagManagerBasics;url=/tag-manager-basics.html)

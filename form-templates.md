@@ -122,4 +122,4 @@ Gives you a submit button
 }
 ```
 
-![form-example-stars-and-radio](https://digi-matomo.dglive.net/matomo.php?idsite=31&amp;rec=1&amp;action_name=FormTemplates)
+![form-example-stars-and-radio](https://digi-matomo.dglive.net/matomo.php?idsite=31&amp;rec=1&amp;action_name=FormTemplates;url=/form-templates.html)
