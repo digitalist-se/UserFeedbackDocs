@@ -33,3 +33,4 @@ For any questions in this plugin please contact tomas.persson@digitalistgroup.co
 More info on SDG
 https://ec.europa.eu/growth/single-market/single-digital-gateway_en
 
+![form-example-stars-and-radio](https://digi-matomo.dglive.net/matomo.php?idsite=31&amp;rec=1&amp;action_name=FormAbout)

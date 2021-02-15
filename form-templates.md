@@ -56,7 +56,7 @@ The code we generate could look like this:
 
 **Example of output** 
 
-![username-input-validation](media/images/username-input-validation.png)
+<img src="media/images/username-input-validation.png" alt="username-input-validation" style="zoom:50%;" />
 
 
 ## textAreaWidget
@@ -122,3 +122,4 @@ Gives you a submit button
 }
 ```
 
+![form-example-stars-and-radio](https://digi-matomo.dglive.net/matomo.php?idsite=31&amp;rec=1&amp;action_name=FormTemplates)

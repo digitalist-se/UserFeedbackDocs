@@ -10,5 +10,4 @@ If your template contains a Stars widget and a free text field you will be promt
 
 Next step is to publish the form via the TagManager in Matomo.
 
-
- 
+![form-example-stars-and-radio](https://digi-matomo.dglive.net/matomo.php?idsite=31&amp;rec=1&amp;action_name=FormCreation)
