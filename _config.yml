@@ -1,2 +1,2 @@
 theme: jekyll-theme-cayman
-{% include matomo.html %}
+{% include _includes/matomo.html %}
