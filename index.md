@@ -8,7 +8,7 @@ typora-copy-images-to: ./media/images
 
 This page documents use cases and will also be the place where you can create feature requests or send bug reports. 
 
-This plugin is under development and the planned release will be in December 2020.
+Contact tomas.persson@digitalistgroup.com if you are interested in this plugin. 
 
 ![form-example-stars-and-radio](media/images/form-example-stars-and-radio.png)
 
